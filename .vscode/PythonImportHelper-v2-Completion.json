@@ -1,0 +1,446 @@
+[
+    {
+        "label": "CryptContext",
+        "importPath": "passlib.context",
+        "description": "passlib.context",
+        "isExtraImport": true,
+        "detail": "passlib.context",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "JWTError",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "jwt",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "JSONResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Hash",
+        "importPath": "hashing",
+        "description": "hashing",
+        "isExtraImport": true,
+        "detail": "hashing",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "importPath": "jwttoken",
+        "description": "jwttoken",
+        "isExtraImport": true,
+        "detail": "jwttoken",
+        "documentation": {}
+    },
+    {
+        "label": "verify_token",
+        "importPath": "jwttoken",
+        "description": "jwttoken",
+        "isExtraImport": true,
+        "detail": "jwttoken",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "importPath": "oauth",
+        "description": "oauth",
+        "isExtraImport": true,
+        "detail": "oauth",
+        "documentation": {}
+    },
+    {
+        "label": "OAuth2PasswordRequestForm",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "OAuth2PasswordBearer",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "MongoClient",
+        "importPath": "pymongo",
+        "description": "pymongo",
+        "isExtraImport": true,
+        "detail": "pymongo",
+        "documentation": {}
+    },
+    {
+        "label": "Hash",
+        "kind": 6,
+        "importPath": "Backend.hashing",
+        "description": "Backend.hashing",
+        "peekOfCode": "class Hash():\n   def bcrypt(password:str):\n      return pwd_cxt.hash(password)\n   def verify(hashed,normal):\n      return pwd_cxt.verify(normal,hashed)",
+        "detail": "Backend.hashing",
+        "documentation": {}
+    },
+    {
+        "label": "pwd_cxt",
+        "kind": 5,
+        "importPath": "Backend.hashing",
+        "description": "Backend.hashing",
+        "peekOfCode": "pwd_cxt = CryptContext(schemes =[\"bcrypt\"],deprecated=\"auto\")\nclass Hash():\n   def bcrypt(password:str):\n      return pwd_cxt.hash(password)\n   def verify(hashed,normal):\n      return pwd_cxt.verify(normal,hashed)",
+        "detail": "Backend.hashing",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "kind": 2,
+        "importPath": "Backend.jwttoken",
+        "description": "Backend.jwttoken",
+        "peekOfCode": "def create_access_token(data: dict):\n    to_encode = data.copy()\n    expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)\n    to_encode.update({\"exp\": expire})\n    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)\n    return encoded_jwt\ndef verify_token(token:str,credentials_exception):\n try:\n     payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])\n     username: str = payload.get(\"sub\")",
+        "detail": "Backend.jwttoken",
+        "documentation": {}
+    },
+    {
+        "label": "verify_token",
+        "kind": 2,
+        "importPath": "Backend.jwttoken",
+        "description": "Backend.jwttoken",
+        "peekOfCode": "def verify_token(token:str,credentials_exception):\n try:\n     payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])\n     username: str = payload.get(\"sub\")\n     if username is None:\n         raise credentials_exception\n     token_data = username # TokenData(username=username)\n except JWTError:\n     raise credentials_exception",
+        "detail": "Backend.jwttoken",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "Backend.jwttoken",
+        "description": "Backend.jwttoken",
+        "peekOfCode": "SECRET_KEY = \"09d25e094faa6ca2556c818166b7a9563b93f7099f6f0f4caa6cf63b88e8d3e7\"\nALGORITHM = \"HS256\"\nACCESS_TOKEN_EXPIRE_MINUTES = 30\ndef create_access_token(data: dict):\n    to_encode = data.copy()\n    expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)\n    to_encode.update({\"exp\": expire})\n    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)\n    return encoded_jwt\ndef verify_token(token:str,credentials_exception):",
+        "detail": "Backend.jwttoken",
+        "documentation": {}
+    },
+    {
+        "label": "ALGORITHM",
+        "kind": 5,
+        "importPath": "Backend.jwttoken",
+        "description": "Backend.jwttoken",
+        "peekOfCode": "ALGORITHM = \"HS256\"\nACCESS_TOKEN_EXPIRE_MINUTES = 30\ndef create_access_token(data: dict):\n    to_encode = data.copy()\n    expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)\n    to_encode.update({\"exp\": expire})\n    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)\n    return encoded_jwt\ndef verify_token(token:str,credentials_exception):\n try:",
+        "detail": "Backend.jwttoken",
+        "documentation": {}
+    },
+    {
+        "label": "ACCESS_TOKEN_EXPIRE_MINUTES",
+        "kind": 5,
+        "importPath": "Backend.jwttoken",
+        "description": "Backend.jwttoken",
+        "peekOfCode": "ACCESS_TOKEN_EXPIRE_MINUTES = 30\ndef create_access_token(data: dict):\n    to_encode = data.copy()\n    expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)\n    to_encode.update({\"exp\": expire})\n    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)\n    return encoded_jwt\ndef verify_token(token:str,credentials_exception):\n try:\n     payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])",
+        "detail": "Backend.jwttoken",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "Backend.main",
+        "description": "Backend.main",
+        "peekOfCode": "class User(BaseModel):\n    username: str\n    company: str\n    password: str\nclass Login(BaseModel):\n\tusername: str\n\tpassword: str\nclass Token(BaseModel):\n    access_token: str\n    token_type: str",
+        "detail": "Backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "Login",
+        "kind": 6,
+        "importPath": "Backend.main",
+        "description": "Backend.main",
+        "peekOfCode": "class Login(BaseModel):\n\tusername: str\n\tpassword: str\nclass Token(BaseModel):\n    access_token: str\n    token_type: str\nclass TokenData(BaseModel):\n    username: Optional[str] = None\n@app.get(\"/\")\ndef read_root(current_user:User = Depends(get_current_user)):",
+        "detail": "Backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "Token",
+        "kind": 6,
+        "importPath": "Backend.main",
+        "description": "Backend.main",
+        "peekOfCode": "class Token(BaseModel):\n    access_token: str\n    token_type: str\nclass TokenData(BaseModel):\n    username: Optional[str] = None\n@app.get(\"/\")\ndef read_root(current_user:User = Depends(get_current_user)):\n\treturn {\"data\":\"Hello OWrldgggg\"}\n@app.post('/register')\ndef create_user(request:User):",
+        "detail": "Backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "TokenData",
+        "kind": 6,
+        "importPath": "Backend.main",
+        "description": "Backend.main",
+        "peekOfCode": "class TokenData(BaseModel):\n    username: Optional[str] = None\n@app.get(\"/\")\ndef read_root(current_user:User = Depends(get_current_user)):\n\treturn {\"data\":\"Hello OWrldgggg\"}\n@app.post('/register')\ndef create_user(request:User):\n\thashed_pass = Hash.bcrypt(request.password)\n\tuser_object = dict(request)\n\tuser_object[\"password\"] = hashed_pass",
+        "detail": "Backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "read_root",
+        "kind": 2,
+        "importPath": "Backend.main",
+        "description": "Backend.main",
+        "peekOfCode": "def read_root(current_user:User = Depends(get_current_user)):\n\treturn {\"data\":\"Hello OWrldgggg\"}\n@app.post('/register')\ndef create_user(request:User):\n\thashed_pass = Hash.bcrypt(request.password)\n\tuser_object = dict(request)\n\tuser_object[\"password\"] = hashed_pass\n\tuser_id = db[\"users\"].insert_one(user_object)\n\treturn {\"res\":\"created\"}\n@app.post('/login')",
+        "detail": "Backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "create_user",
+        "kind": 2,
+        "importPath": "Backend.main",
+        "description": "Backend.main",
+        "peekOfCode": "def create_user(request:User):\n\thashed_pass = Hash.bcrypt(request.password)\n\tuser_object = dict(request)\n\tuser_object[\"password\"] = hashed_pass\n\tuser_id = db[\"users\"].insert_one(user_object)\n\treturn {\"res\":\"created\"}\n@app.post('/login')\ndef login(request:Login):\n\tuser = db[\"users\"].find_one({\"username\":request.username})\n\tif not user:",
+        "detail": "Backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 2,
+        "importPath": "Backend.main",
+        "description": "Backend.main",
+        "peekOfCode": "def login(request:Login):\n\tuser = db[\"users\"].find_one({\"username\":request.username})\n\tif not user:\n\t\traise HTTPException(status_code=status.HTTP_404_NOT_FOUND,detail = f'No user found with this {request.username} username')\n\tif not Hash.verify(user[\"password\"],request.password):\n\t\traise HTTPException(status_code=status.HTTP_404_NOT_FOUND,detail = f'Wrong Username or password')\n\taccess_token = create_access_token(data={\"sub\": user[\"username\"] })\n\treturn {\"access_token\": access_token, \"token_type\": \"bearer\"}",
+        "detail": "Backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "Backend.main",
+        "description": "Backend.main",
+        "peekOfCode": "app = FastAPI()\norigins = [\n    \"http://localhost:3000\",\n    \"http://localhost:8080\",\n]\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=origins,\n    allow_credentials=True,\n    allow_methods=[\"*\"],",
+        "detail": "Backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "origins",
+        "kind": 5,
+        "importPath": "Backend.main",
+        "description": "Backend.main",
+        "peekOfCode": "origins = [\n    \"http://localhost:3000\",\n    \"http://localhost:8080\",\n]\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=origins,\n    allow_credentials=True,\n    allow_methods=[\"*\"],\n    allow_headers=[\"*\"],",
+        "detail": "Backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "mongodb_uri",
+        "kind": 5,
+        "importPath": "Backend.main",
+        "description": "Backend.main",
+        "peekOfCode": "mongodb_uri = 'mongodb+srv://yuri:Bibi_1234@cluster0.0ejlijv.mongodb.net/?retryWrites=true&w=majority'\nport = 8000\nclient = MongoClient(mongodb_uri, port)\ndb = client[\"User\"]\nclass User(BaseModel):\n    username: str\n    company: str\n    password: str\nclass Login(BaseModel):\n\tusername: str",
+        "detail": "Backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "port",
+        "kind": 5,
+        "importPath": "Backend.main",
+        "description": "Backend.main",
+        "peekOfCode": "port = 8000\nclient = MongoClient(mongodb_uri, port)\ndb = client[\"User\"]\nclass User(BaseModel):\n    username: str\n    company: str\n    password: str\nclass Login(BaseModel):\n\tusername: str\n\tpassword: str",
+        "detail": "Backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "Backend.main",
+        "description": "Backend.main",
+        "peekOfCode": "client = MongoClient(mongodb_uri, port)\ndb = client[\"User\"]\nclass User(BaseModel):\n    username: str\n    company: str\n    password: str\nclass Login(BaseModel):\n\tusername: str\n\tpassword: str\nclass Token(BaseModel):",
+        "detail": "Backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "Backend.main",
+        "description": "Backend.main",
+        "peekOfCode": "db = client[\"User\"]\nclass User(BaseModel):\n    username: str\n    company: str\n    password: str\nclass Login(BaseModel):\n\tusername: str\n\tpassword: str\nclass Token(BaseModel):\n    access_token: str",
+        "detail": "Backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "\thashed_pass",
+        "kind": 5,
+        "importPath": "Backend.main",
+        "description": "Backend.main",
+        "peekOfCode": "\thashed_pass = Hash.bcrypt(request.password)\n\tuser_object = dict(request)\n\tuser_object[\"password\"] = hashed_pass\n\tuser_id = db[\"users\"].insert_one(user_object)\n\treturn {\"res\":\"created\"}\n@app.post('/login')\ndef login(request:Login):\n\tuser = db[\"users\"].find_one({\"username\":request.username})\n\tif not user:\n\t\traise HTTPException(status_code=status.HTTP_404_NOT_FOUND,detail = f'No user found with this {request.username} username')",
+        "detail": "Backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "\tuser_object",
+        "kind": 5,
+        "importPath": "Backend.main",
+        "description": "Backend.main",
+        "peekOfCode": "\tuser_object = dict(request)\n\tuser_object[\"password\"] = hashed_pass\n\tuser_id = db[\"users\"].insert_one(user_object)\n\treturn {\"res\":\"created\"}\n@app.post('/login')\ndef login(request:Login):\n\tuser = db[\"users\"].find_one({\"username\":request.username})\n\tif not user:\n\t\traise HTTPException(status_code=status.HTTP_404_NOT_FOUND,detail = f'No user found with this {request.username} username')\n\tif not Hash.verify(user[\"password\"],request.password):",
+        "detail": "Backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "\tuser_object[\"password\"]",
+        "kind": 5,
+        "importPath": "Backend.main",
+        "description": "Backend.main",
+        "peekOfCode": "\tuser_object[\"password\"] = hashed_pass\n\tuser_id = db[\"users\"].insert_one(user_object)\n\treturn {\"res\":\"created\"}\n@app.post('/login')\ndef login(request:Login):\n\tuser = db[\"users\"].find_one({\"username\":request.username})\n\tif not user:\n\t\traise HTTPException(status_code=status.HTTP_404_NOT_FOUND,detail = f'No user found with this {request.username} username')\n\tif not Hash.verify(user[\"password\"],request.password):\n\t\traise HTTPException(status_code=status.HTTP_404_NOT_FOUND,detail = f'Wrong Username or password')",
+        "detail": "Backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "\tuser_id",
+        "kind": 5,
+        "importPath": "Backend.main",
+        "description": "Backend.main",
+        "peekOfCode": "\tuser_id = db[\"users\"].insert_one(user_object)\n\treturn {\"res\":\"created\"}\n@app.post('/login')\ndef login(request:Login):\n\tuser = db[\"users\"].find_one({\"username\":request.username})\n\tif not user:\n\t\traise HTTPException(status_code=status.HTTP_404_NOT_FOUND,detail = f'No user found with this {request.username} username')\n\tif not Hash.verify(user[\"password\"],request.password):\n\t\traise HTTPException(status_code=status.HTTP_404_NOT_FOUND,detail = f'Wrong Username or password')\n\taccess_token = create_access_token(data={\"sub\": user[\"username\"] })",
+        "detail": "Backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "\tuser",
+        "kind": 5,
+        "importPath": "Backend.main",
+        "description": "Backend.main",
+        "peekOfCode": "\tuser = db[\"users\"].find_one({\"username\":request.username})\n\tif not user:\n\t\traise HTTPException(status_code=status.HTTP_404_NOT_FOUND,detail = f'No user found with this {request.username} username')\n\tif not Hash.verify(user[\"password\"],request.password):\n\t\traise HTTPException(status_code=status.HTTP_404_NOT_FOUND,detail = f'Wrong Username or password')\n\taccess_token = create_access_token(data={\"sub\": user[\"username\"] })\n\treturn {\"access_token\": access_token, \"token_type\": \"bearer\"}",
+        "detail": "Backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "\taccess_token",
+        "kind": 5,
+        "importPath": "Backend.main",
+        "description": "Backend.main",
+        "peekOfCode": "\taccess_token = create_access_token(data={\"sub\": user[\"username\"] })\n\treturn {\"access_token\": access_token, \"token_type\": \"bearer\"}",
+        "detail": "Backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "kind": 2,
+        "importPath": "Backend.oauth",
+        "description": "Backend.oauth",
+        "peekOfCode": "def get_current_user(token: str = Depends(oauth2_scheme)):\n credentials_exception = HTTPException(\n        status_code=status.HTTP_401_UNAUTHORIZED,\n        detail=\"Could not validate credentials\",\n        headers={\"WWW-Authenticate\": \"Bearer\"},\n    )\n return verify_token(token,credentials_exception)",
+        "detail": "Backend.oauth",
+        "documentation": {}
+    },
+    {
+        "label": "oauth2_scheme",
+        "kind": 5,
+        "importPath": "Backend.oauth",
+        "description": "Backend.oauth",
+        "peekOfCode": "oauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"login\")\ndef get_current_user(token: str = Depends(oauth2_scheme)):\n credentials_exception = HTTPException(\n        status_code=status.HTTP_401_UNAUTHORIZED,\n        detail=\"Could not validate credentials\",\n        headers={\"WWW-Authenticate\": \"Bearer\"},\n    )\n return verify_token(token,credentials_exception)",
+        "detail": "Backend.oauth",
+        "documentation": {}
+    }
+]
