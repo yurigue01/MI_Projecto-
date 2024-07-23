@@ -1,5 +1,77 @@
 [
     {
+        "label": "BaseSettings",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "EmailStr",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson",
+        "description": "bson",
+        "isExtraImport": true,
+        "detail": "bson",
+        "documentation": {}
+    },
+    {
+        "label": "JSONEncoder",
+        "importPath": "json",
+        "description": "json",
+        "isExtraImport": true,
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "dumps",
+        "importPath": "json",
+        "description": "json",
+        "isExtraImport": true,
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "JSONEncoder",
+        "importPath": "json",
+        "description": "json",
+        "isExtraImport": true,
+        "detail": "json",
+        "documentation": {}
+    },
+    {
         "label": "CryptContext",
         "importPath": "passlib.context",
         "description": "passlib.context",
@@ -24,6 +96,14 @@
         "documentation": {}
     },
     {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
         "label": "JWTError",
         "importPath": "jose",
         "description": "jose",
@@ -33,14 +113,40 @@
     },
     {
         "label": "jwt",
-        "importPath": "jose",
-        "description": "jose",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "jose",
+        "importPath": "jwt",
+        "description": "jwt",
+        "detail": "jwt",
+        "documentation": {}
+    },
+    {
+        "label": "smtplib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "smtplib",
+        "description": "smtplib",
+        "detail": "smtplib",
         "documentation": {}
     },
     {
         "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -88,6 +194,54 @@
         "documentation": {}
     },
     {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "File",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "UploadFile",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
         "label": "Depends",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -120,11 +274,11 @@
         "documentation": {}
     },
     {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
+        "label": "Hash",
+        "importPath": "hashing",
+        "description": "hashing",
         "isExtraImport": true,
-        "detail": "pydantic",
+        "detail": "hashing",
         "documentation": {}
     },
     {
@@ -133,6 +287,14 @@
         "description": "hashing",
         "isExtraImport": true,
         "detail": "hashing",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "importPath": "jwttoken",
+        "description": "jwttoken",
+        "isExtraImport": true,
+        "detail": "jwttoken",
         "documentation": {}
     },
     {
@@ -184,11 +346,159 @@
         "documentation": {}
     },
     {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
         "label": "MongoClient",
         "importPath": "pymongo",
         "description": "pymongo",
         "isExtraImport": true,
         "detail": "pymongo",
+        "documentation": {}
+    },
+    {
+        "label": "MongoClient",
+        "importPath": "pymongo",
+        "description": "pymongo",
+        "isExtraImport": true,
+        "detail": "pymongo",
+        "documentation": {}
+    },
+    {
+        "label": "MIMEText",
+        "importPath": "email.mime.text",
+        "description": "email.mime.text",
+        "isExtraImport": true,
+        "detail": "email.mime.text",
+        "documentation": {}
+    },
+    {
+        "label": "MIMEText",
+        "importPath": "email.mime.text",
+        "description": "email.mime.text",
+        "isExtraImport": true,
+        "detail": "email.mime.text",
+        "documentation": {}
+    },
+    {
+        "label": "MIMEMultipart",
+        "importPath": "email.mime.multipart",
+        "description": "email.mime.multipart",
+        "isExtraImport": true,
+        "detail": "email.mime.multipart",
+        "documentation": {}
+    },
+    {
+        "label": "MIMEMultipart",
+        "importPath": "email.mime.multipart",
+        "description": "email.mime.multipart",
+        "isExtraImport": true,
+        "detail": "email.mime.multipart",
+        "documentation": {}
+    },
+    {
+        "label": "EmailMessage",
+        "importPath": "email.message",
+        "description": "email.message",
+        "isExtraImport": true,
+        "detail": "email.message",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "read_csv",
+        "importPath": "pandas",
+        "description": "pandas",
+        "isExtraImport": true,
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "read_excel",
+        "importPath": "pandas",
+        "description": "pandas",
+        "isExtraImport": true,
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "BytesIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "jsonable_encoder",
+        "importPath": "fastapi.encoders",
+        "description": "fastapi.encoders",
+        "isExtraImport": true,
+        "detail": "fastapi.encoders",
+        "documentation": {}
+    },
+    {
+        "label": "jsonable_encoder",
+        "importPath": "fastapi.encoders",
+        "description": "fastapi.encoders",
+        "isExtraImport": true,
+        "detail": "fastapi.encoders",
+        "documentation": {}
+    },
+    {
+        "label": "CustomJSONEncoder",
+        "importPath": "custom_json_encoder",
+        "description": "custom_json_encoder",
+        "isExtraImport": true,
+        "detail": "custom_json_encoder",
+        "documentation": {}
+    },
+    {
+        "label": "Decimal",
+        "importPath": "decimal",
+        "description": "decimal",
+        "isExtraImport": true,
+        "detail": "decimal",
+        "documentation": {}
+    },
+    {
+        "label": "Settings",
+        "kind": 6,
+        "importPath": "Backend.app.config",
+        "description": "Backend.app.config",
+        "peekOfCode": "class Settings(BaseSettings):\n    DATABASE_URL: str\n    MONGO_INITDB_DATABASE: str\n    JWT_PUBLIC_KEY: str\n    JWT_PRIVATE_KEY: str\n    REFRESH_TOKEN_EXPIRES_IN: int\n    ACCESS_TOKEN_EXPIRES_IN: int\n    JWT_ALGORITHM: str\n    CLIENT_ORIGIN: str\n    EMAIL_HOST: str",
+        "detail": "Backend.app.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "kind": 5,
+        "importPath": "Backend.app.config",
+        "description": "Backend.app.config",
+        "peekOfCode": "settings = Settings()",
+        "detail": "Backend.app.config",
+        "documentation": {}
+    },
+    {
+        "label": "CustomJSONEncoder",
+        "kind": 6,
+        "importPath": "Backend.custom_json_encoder",
+        "description": "Backend.custom_json_encoder",
+        "peekOfCode": "class CustomJSONEncoder(JSONEncoder):\n    def default(self, obj):\n        if isinstance(obj, ObjectId):\n            return str(obj)\n       # return JSONEncoder.default(self, obj)\n        return super().default(obj)",
+        "detail": "Backend.custom_json_encoder",
         "documentation": {}
     },
     {
@@ -214,7 +524,7 @@
         "kind": 2,
         "importPath": "Backend.jwttoken",
         "description": "Backend.jwttoken",
-        "peekOfCode": "def create_access_token(data: dict):\n    to_encode = data.copy()\n    expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)\n    to_encode.update({\"exp\": expire})\n    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)\n    return encoded_jwt\ndef verify_token(token:str,credentials_exception):\n try:\n     payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])\n     username: str = payload.get(\"sub\")",
+        "peekOfCode": "def create_access_token(data: dict):\n    to_encode = data.copy()\n    expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)\n    to_encode.update({\"exp\": expire})\n    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)\n    return encoded_jwt\ndef verify_token(token:str, credentials_exception):\n    try:\n        payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])\n        email: str = payload.get(\"sub\")",
         "detail": "Backend.jwttoken",
         "documentation": {}
     },
@@ -223,7 +533,7 @@
         "kind": 2,
         "importPath": "Backend.jwttoken",
         "description": "Backend.jwttoken",
-        "peekOfCode": "def verify_token(token:str,credentials_exception):\n try:\n     payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])\n     username: str = payload.get(\"sub\")\n     if username is None:\n         raise credentials_exception\n     token_data = username # TokenData(username=username)\n except JWTError:\n     raise credentials_exception",
+        "peekOfCode": "def verify_token(token:str, credentials_exception):\n    try:\n        payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])\n        email: str = payload.get(\"sub\")\n        if email is None:\n            raise credentials_exception\n        token_data = email # TokenData(email=email)\n    except JWTError:\n        raise credentials_exception",
         "detail": "Backend.jwttoken",
         "documentation": {}
     },
@@ -232,7 +542,7 @@
         "kind": 5,
         "importPath": "Backend.jwttoken",
         "description": "Backend.jwttoken",
-        "peekOfCode": "SECRET_KEY = \"09d25e094faa6ca2556c818166b7a9563b93f7099f6f0f4caa6cf63b88e8d3e7\"\nALGORITHM = \"HS256\"\nACCESS_TOKEN_EXPIRE_MINUTES = 30\ndef create_access_token(data: dict):\n    to_encode = data.copy()\n    expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)\n    to_encode.update({\"exp\": expire})\n    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)\n    return encoded_jwt\ndef verify_token(token:str,credentials_exception):",
+        "peekOfCode": "SECRET_KEY = \"09d25e094faa6ca2556c818166b7a9563b93f7099f6f0f4caa6cf63b88e8d3e7\"\nALGORITHM = \"HS256\"\nACCESS_TOKEN_EXPIRE_MINUTES = 30\ndef create_access_token(data: dict):\n    to_encode = data.copy()\n    expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)\n    to_encode.update({\"exp\": expire})\n    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)\n    return encoded_jwt\ndef verify_token(token:str, credentials_exception):",
         "detail": "Backend.jwttoken",
         "documentation": {}
     },
@@ -241,7 +551,7 @@
         "kind": 5,
         "importPath": "Backend.jwttoken",
         "description": "Backend.jwttoken",
-        "peekOfCode": "ALGORITHM = \"HS256\"\nACCESS_TOKEN_EXPIRE_MINUTES = 30\ndef create_access_token(data: dict):\n    to_encode = data.copy()\n    expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)\n    to_encode.update({\"exp\": expire})\n    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)\n    return encoded_jwt\ndef verify_token(token:str,credentials_exception):\n try:",
+        "peekOfCode": "ALGORITHM = \"HS256\"\nACCESS_TOKEN_EXPIRE_MINUTES = 30\ndef create_access_token(data: dict):\n    to_encode = data.copy()\n    expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)\n    to_encode.update({\"exp\": expire})\n    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)\n    return encoded_jwt\ndef verify_token(token:str, credentials_exception):\n    try:",
         "detail": "Backend.jwttoken",
         "documentation": {}
     },
@@ -250,8 +560,251 @@
         "kind": 5,
         "importPath": "Backend.jwttoken",
         "description": "Backend.jwttoken",
-        "peekOfCode": "ACCESS_TOKEN_EXPIRE_MINUTES = 30\ndef create_access_token(data: dict):\n    to_encode = data.copy()\n    expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)\n    to_encode.update({\"exp\": expire})\n    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)\n    return encoded_jwt\ndef verify_token(token:str,credentials_exception):\n try:\n     payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])",
+        "peekOfCode": "ACCESS_TOKEN_EXPIRE_MINUTES = 30\ndef create_access_token(data: dict):\n    to_encode = data.copy()\n    expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)\n    to_encode.update({\"exp\": expire})\n    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)\n    return encoded_jwt\ndef verify_token(token:str, credentials_exception):\n    try:\n        payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])",
         "detail": "Backend.jwttoken",
+        "documentation": {}
+    },
+    {
+        "label": "send",
+        "kind": 2,
+        "importPath": "Backend.mail",
+        "description": "Backend.mail",
+        "peekOfCode": "def send(username,email):\n        message = f\"\"\"\\\n        Subject: Hi Mailtrap\n        To: {receiver}\n        From: {sender}\n        usename: {username}\n        email: {email}\n        This is a test e-mail message.\"\"\"\n        server.sendmail(sender, receiver,message)",
+        "detail": "Backend.mail",
+        "documentation": {}
+    },
+    {
+        "label": "sender",
+        "kind": 5,
+        "importPath": "Backend.mail",
+        "description": "Backend.mail",
+        "peekOfCode": "sender = \"Private Person <from@example.com>\"\nreceiver = \"A Test User  ccc <to@example.com>\"\nserver = smtplib.SMTP(\"sandbox.smtp.mailtrap.io\", 2525)\nserver.login(\"92463ddfaf41ea\", \"7a3617bc2177ef\")\ndef send(username,email):\n        message = f\"\"\"\\\n        Subject: Hi Mailtrap\n        To: {receiver}\n        From: {sender}\n        usename: {username}",
+        "detail": "Backend.mail",
+        "documentation": {}
+    },
+    {
+        "label": "receiver",
+        "kind": 5,
+        "importPath": "Backend.mail",
+        "description": "Backend.mail",
+        "peekOfCode": "receiver = \"A Test User  ccc <to@example.com>\"\nserver = smtplib.SMTP(\"sandbox.smtp.mailtrap.io\", 2525)\nserver.login(\"92463ddfaf41ea\", \"7a3617bc2177ef\")\ndef send(username,email):\n        message = f\"\"\"\\\n        Subject: Hi Mailtrap\n        To: {receiver}\n        From: {sender}\n        usename: {username}\n        email: {email}",
+        "detail": "Backend.mail",
+        "documentation": {}
+    },
+    {
+        "label": "server",
+        "kind": 5,
+        "importPath": "Backend.mail",
+        "description": "Backend.mail",
+        "peekOfCode": "server = smtplib.SMTP(\"sandbox.smtp.mailtrap.io\", 2525)\nserver.login(\"92463ddfaf41ea\", \"7a3617bc2177ef\")\ndef send(username,email):\n        message = f\"\"\"\\\n        Subject: Hi Mailtrap\n        To: {receiver}\n        From: {sender}\n        usename: {username}\n        email: {email}\n        This is a test e-mail message.\"\"\"",
+        "detail": "Backend.mail",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "Backend.main copy",
+        "description": "Backend.main copy",
+        "peekOfCode": "class User(BaseModel):\n    username: str\n    name: str\n    email: str\n    password: str\n    is_active: bool = False\nclass Login(BaseModel):\n\temail: str\n\tpassword: str\nclass Token(BaseModel):",
+        "detail": "Backend.main copy",
+        "documentation": {}
+    },
+    {
+        "label": "Login",
+        "kind": 6,
+        "importPath": "Backend.main copy",
+        "description": "Backend.main copy",
+        "peekOfCode": "class Login(BaseModel):\n\temail: str\n\tpassword: str\nclass Token(BaseModel):\n    access_token: str\n    token_type: str\nclass TokenData(BaseModel):\n    email: Optional[str] = None\ndef send_email_confirmation(to_email, confirmation_token):\n    # configurar a mensagem de email",
+        "detail": "Backend.main copy",
+        "documentation": {}
+    },
+    {
+        "label": "Token",
+        "kind": 6,
+        "importPath": "Backend.main copy",
+        "description": "Backend.main copy",
+        "peekOfCode": "class Token(BaseModel):\n    access_token: str\n    token_type: str\nclass TokenData(BaseModel):\n    email: Optional[str] = None\ndef send_email_confirmation(to_email, confirmation_token):\n    # configurar a mensagem de email\n    message = MIMEMultipart()\n    message[\"Subject\"] = \"Confirme a sua conta!\"\n    message[\"From\"] = smtp_login",
+        "detail": "Backend.main copy",
+        "documentation": {}
+    },
+    {
+        "label": "TokenData",
+        "kind": 6,
+        "importPath": "Backend.main copy",
+        "description": "Backend.main copy",
+        "peekOfCode": "class TokenData(BaseModel):\n    email: Optional[str] = None\ndef send_email_confirmation(to_email, confirmation_token):\n    # configurar a mensagem de email\n    message = MIMEMultipart()\n    message[\"Subject\"] = \"Confirme a sua conta!\"\n    message[\"From\"] = smtp_login\n    # corpo da mensagem\n    text = \"Clique no link abaixo para confirmar a sua conta:\\n\\n\"\n    confirmation_url = f\"http://link.com/confirmar-email?token={confirmation_token}\"",
+        "detail": "Backend.main copy",
+        "documentation": {}
+    },
+    {
+        "label": "send_email_confirmation",
+        "kind": 2,
+        "importPath": "Backend.main copy",
+        "description": "Backend.main copy",
+        "peekOfCode": "def send_email_confirmation(to_email, confirmation_token):\n    # configurar a mensagem de email\n    message = MIMEMultipart()\n    message[\"Subject\"] = \"Confirme a sua conta!\"\n    message[\"From\"] = smtp_login\n    # corpo da mensagem\n    text = \"Clique no link abaixo para confirmar a sua conta:\\n\\n\"\n    confirmation_url = f\"http://link.com/confirmar-email?token={confirmation_token}\"\n    text += confirmation_url\n    message.attach(MIMEText(text))",
+        "detail": "Backend.main copy",
+        "documentation": {}
+    },
+    {
+        "label": "read_root",
+        "kind": 2,
+        "importPath": "Backend.main copy",
+        "description": "Backend.main copy",
+        "peekOfCode": "def read_root(current_user: User = Depends(get_current_user)):\n\treturn {\"data\": \"Hello OWrldgggg\"}\n@app.post('/register')\ndef create_user(request: User):\n\thashed_pass = Hash.bcrypt(request.password)\n\tuser_object = dict(request)\n\tuser_object[\"password\"] = hashed_pass\n\tuser_id = db[\"users\"].insert_one(user_object)\n    #send_email_confirmation(\"yurigue2104@gmail.com\", \"tttthss\")\n\treturn {\"res\":\"created\"}",
+        "detail": "Backend.main copy",
+        "documentation": {}
+    },
+    {
+        "label": "create_user",
+        "kind": 2,
+        "importPath": "Backend.main copy",
+        "description": "Backend.main copy",
+        "peekOfCode": "def create_user(request: User):\n\thashed_pass = Hash.bcrypt(request.password)\n\tuser_object = dict(request)\n\tuser_object[\"password\"] = hashed_pass\n\tuser_id = db[\"users\"].insert_one(user_object)\n    #send_email_confirmation(\"yurigue2104@gmail.com\", \"tttthss\")\n\treturn {\"res\":\"created\"}\n@app.post('/login')\ndef login(request: Login):\n    user = db[\"users\"].find_one({\"email\": request.email})",
+        "detail": "Backend.main copy",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 2,
+        "importPath": "Backend.main copy",
+        "description": "Backend.main copy",
+        "peekOfCode": "def login(request: Login):\n    user = db[\"users\"].find_one({\"email\": request.email})\n    if not user:\n        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail=f'Wrong email or password')\n    if not Hash.verify(user[\"password\"], request.password):\n        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail=f'Wrong email or password')\n    access_token = create_access_token(data={\"sub\": user[\"email\"]})\n    return {\"access_token\": access_token, \"token_type\": \"bearer\", \"username\": user[\"username\"]}",
+        "detail": "Backend.main copy",
+        "documentation": {}
+    },
+    {
+        "label": "smtp_server",
+        "kind": 5,
+        "importPath": "Backend.main copy",
+        "description": "Backend.main copy",
+        "peekOfCode": "smtp_server = \"sandbox.smtp.mailtrap.io\"\nsmtp_port = 587\nsmtp_login = \"92463ddfaf41ea\"\nsmtp_password = \"7a3617bc2177ef\"\napp = FastAPI()\norigins = [\n    \"http://localhost:3000\",\n    \"http://localhost:8080\",\n]\napp.add_middleware(",
+        "detail": "Backend.main copy",
+        "documentation": {}
+    },
+    {
+        "label": "smtp_port",
+        "kind": 5,
+        "importPath": "Backend.main copy",
+        "description": "Backend.main copy",
+        "peekOfCode": "smtp_port = 587\nsmtp_login = \"92463ddfaf41ea\"\nsmtp_password = \"7a3617bc2177ef\"\napp = FastAPI()\norigins = [\n    \"http://localhost:3000\",\n    \"http://localhost:8080\",\n]\napp.add_middleware(\n    CORSMiddleware,",
+        "detail": "Backend.main copy",
+        "documentation": {}
+    },
+    {
+        "label": "smtp_login",
+        "kind": 5,
+        "importPath": "Backend.main copy",
+        "description": "Backend.main copy",
+        "peekOfCode": "smtp_login = \"92463ddfaf41ea\"\nsmtp_password = \"7a3617bc2177ef\"\napp = FastAPI()\norigins = [\n    \"http://localhost:3000\",\n    \"http://localhost:8080\",\n]\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=origins,",
+        "detail": "Backend.main copy",
+        "documentation": {}
+    },
+    {
+        "label": "smtp_password",
+        "kind": 5,
+        "importPath": "Backend.main copy",
+        "description": "Backend.main copy",
+        "peekOfCode": "smtp_password = \"7a3617bc2177ef\"\napp = FastAPI()\norigins = [\n    \"http://localhost:3000\",\n    \"http://localhost:8080\",\n]\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=origins,\n    allow_credentials=True,",
+        "detail": "Backend.main copy",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "Backend.main copy",
+        "description": "Backend.main copy",
+        "peekOfCode": "app = FastAPI()\norigins = [\n    \"http://localhost:3000\",\n    \"http://localhost:8080\",\n]\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=origins,\n    allow_credentials=True,\n    allow_methods=[\"*\"],",
+        "detail": "Backend.main copy",
+        "documentation": {}
+    },
+    {
+        "label": "origins",
+        "kind": 5,
+        "importPath": "Backend.main copy",
+        "description": "Backend.main copy",
+        "peekOfCode": "origins = [\n    \"http://localhost:3000\",\n    \"http://localhost:8080\",\n]\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=origins,\n    allow_credentials=True,\n    allow_methods=[\"*\"],\n    allow_headers=[\"*\"],",
+        "detail": "Backend.main copy",
+        "documentation": {}
+    },
+    {
+        "label": "mongodb_uri",
+        "kind": 5,
+        "importPath": "Backend.main copy",
+        "description": "Backend.main copy",
+        "peekOfCode": "mongodb_uri = 'mongodb+srv://yuri:Bibi_1234@cluster0.0ejlijv.mongodb.net/?retryWrites=true&w=majority'\nport = 8000\nclient = MongoClient(mongodb_uri, port)\ndb = client[\"User\"]\nclass User(BaseModel):\n    username: str\n    name: str\n    email: str\n    password: str\n    is_active: bool = False",
+        "detail": "Backend.main copy",
+        "documentation": {}
+    },
+    {
+        "label": "port",
+        "kind": 5,
+        "importPath": "Backend.main copy",
+        "description": "Backend.main copy",
+        "peekOfCode": "port = 8000\nclient = MongoClient(mongodb_uri, port)\ndb = client[\"User\"]\nclass User(BaseModel):\n    username: str\n    name: str\n    email: str\n    password: str\n    is_active: bool = False\nclass Login(BaseModel):",
+        "detail": "Backend.main copy",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "Backend.main copy",
+        "description": "Backend.main copy",
+        "peekOfCode": "client = MongoClient(mongodb_uri, port)\ndb = client[\"User\"]\nclass User(BaseModel):\n    username: str\n    name: str\n    email: str\n    password: str\n    is_active: bool = False\nclass Login(BaseModel):\n\temail: str",
+        "detail": "Backend.main copy",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "Backend.main copy",
+        "description": "Backend.main copy",
+        "peekOfCode": "db = client[\"User\"]\nclass User(BaseModel):\n    username: str\n    name: str\n    email: str\n    password: str\n    is_active: bool = False\nclass Login(BaseModel):\n\temail: str\n\tpassword: str",
+        "detail": "Backend.main copy",
+        "documentation": {}
+    },
+    {
+        "label": "\thashed_pass",
+        "kind": 5,
+        "importPath": "Backend.main copy",
+        "description": "Backend.main copy",
+        "peekOfCode": "\thashed_pass = Hash.bcrypt(request.password)\n\tuser_object = dict(request)\n\tuser_object[\"password\"] = hashed_pass\n\tuser_id = db[\"users\"].insert_one(user_object)\n    #send_email_confirmation(\"yurigue2104@gmail.com\", \"tttthss\")\n\treturn {\"res\":\"created\"}\n@app.post('/login')\ndef login(request: Login):\n    user = db[\"users\"].find_one({\"email\": request.email})\n    if not user:",
+        "detail": "Backend.main copy",
+        "documentation": {}
+    },
+    {
+        "label": "\tuser_object",
+        "kind": 5,
+        "importPath": "Backend.main copy",
+        "description": "Backend.main copy",
+        "peekOfCode": "\tuser_object = dict(request)\n\tuser_object[\"password\"] = hashed_pass\n\tuser_id = db[\"users\"].insert_one(user_object)\n    #send_email_confirmation(\"yurigue2104@gmail.com\", \"tttthss\")\n\treturn {\"res\":\"created\"}\n@app.post('/login')\ndef login(request: Login):\n    user = db[\"users\"].find_one({\"email\": request.email})\n    if not user:\n        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail=f'Wrong email or password')",
+        "detail": "Backend.main copy",
+        "documentation": {}
+    },
+    {
+        "label": "\tuser_object[\"password\"]",
+        "kind": 5,
+        "importPath": "Backend.main copy",
+        "description": "Backend.main copy",
+        "peekOfCode": "\tuser_object[\"password\"] = hashed_pass\n\tuser_id = db[\"users\"].insert_one(user_object)\n    #send_email_confirmation(\"yurigue2104@gmail.com\", \"tttthss\")\n\treturn {\"res\":\"created\"}\n@app.post('/login')\ndef login(request: Login):\n    user = db[\"users\"].find_one({\"email\": request.email})\n    if not user:\n        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail=f'Wrong email or password')\n    if not Hash.verify(user[\"password\"], request.password):",
+        "detail": "Backend.main copy",
+        "documentation": {}
+    },
+    {
+        "label": "\tuser_id",
+        "kind": 5,
+        "importPath": "Backend.main copy",
+        "description": "Backend.main copy",
+        "peekOfCode": "\tuser_id = db[\"users\"].insert_one(user_object)\n    #send_email_confirmation(\"yurigue2104@gmail.com\", \"tttthss\")\n\treturn {\"res\":\"created\"}\n@app.post('/login')\ndef login(request: Login):\n    user = db[\"users\"].find_one({\"email\": request.email})\n    if not user:\n        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail=f'Wrong email or password')\n    if not Hash.verify(user[\"password\"], request.password):\n        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail=f'Wrong email or password')",
+        "detail": "Backend.main copy",
+        "documentation": {}
+    },
+    {
+        "label": "CustomJSONEncoder",
+        "kind": 6,
+        "importPath": "Backend.main",
+        "description": "Backend.main",
+        "peekOfCode": "class CustomJSONEncoder(JSONEncoder):\n    def default(self, o):\n        if isinstance(o, ObjectId):\n            return str(o)  # Convert ObjectId to string\n        return super().default(o)\napp = FastAPI()\n# Configuração do CORS\norigins = [\n    \"http://localhost:3000\",\n    \"http://localhost:8080\",",
+        "detail": "Backend.main",
         "documentation": {}
     },
     {
@@ -259,7 +812,97 @@
         "kind": 6,
         "importPath": "Backend.main",
         "description": "Backend.main",
-        "peekOfCode": "class User(BaseModel):\n    username: str\n    company: str\n    password: str\nclass Login(BaseModel):\n\tusername: str\n\tpassword: str\nclass Token(BaseModel):\n    access_token: str\n    token_type: str",
+        "peekOfCode": "class User(BaseModel):\n    username: str\n    name: str\n    email: str\n    password: str\n    is_active: bool = False\n    is_email_verified: bool = False\nclass Candidatura(BaseModel):\n    tipo: str\n    pagamento: Decimal",
+        "detail": "Backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "Candidatura",
+        "kind": 6,
+        "importPath": "Backend.main",
+        "description": "Backend.main",
+        "peekOfCode": "class Candidatura(BaseModel):\n    tipo: str\n    pagamento: Decimal\n    data: datetime\n    epoca: str\n    ano_lect: str\n    estado: str\n    observacao: str\n    responsavel: str\n    nome: str",
+        "detail": "Backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "Analise",
+        "kind": 6,
+        "importPath": "Backend.main",
+        "description": "Backend.main",
+        "peekOfCode": "class Analise(BaseModel):\n    classif: int\n    inf_result: str\n    observacao: str\n    resultado: str\n    nota_curri: Decimal\n    nota_forma: Decimal\n    id_cand: str\nclass Curso(BaseModel):\n    cod_curso: int",
+        "detail": "Backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "Curso",
+        "kind": 6,
+        "importPath": "Backend.main",
+        "description": "Backend.main",
+        "peekOfCode": "class Curso(BaseModel):\n    cod_curso: int\n    n_plano: int\n    nome: str\n    id_escol: str\nclass Escola(BaseModel):\n    cod_escola: str\n    nome: str\nclass Formacao(BaseModel):\n    grau: str",
+        "detail": "Backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "Escola",
+        "kind": 6,
+        "importPath": "Backend.main",
+        "description": "Backend.main",
+        "peekOfCode": "class Escola(BaseModel):\n    cod_escola: str\n    nome: str\nclass Formacao(BaseModel):\n    grau: str\n    nome: str\n    id_instit: str\nclass Anexo(BaseModel):\n    nome: str\n    tipo: str",
+        "detail": "Backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "Formacao",
+        "kind": 6,
+        "importPath": "Backend.main",
+        "description": "Backend.main",
+        "peekOfCode": "class Formacao(BaseModel):\n    grau: str\n    nome: str\n    id_instit: str\nclass Anexo(BaseModel):\n    nome: str\n    tipo: str\n    id_cand: str\n    id_analis: str\nclass Instituicao(BaseModel):",
+        "detail": "Backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "Anexo",
+        "kind": 6,
+        "importPath": "Backend.main",
+        "description": "Backend.main",
+        "peekOfCode": "class Anexo(BaseModel):\n    nome: str\n    tipo: str\n    id_cand: str\n    id_analis: str\nclass Instituicao(BaseModel):\n    cod: str\n    nome: str\n    id_pais: str\nclass Pais(BaseModel):",
+        "detail": "Backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "Instituicao",
+        "kind": 6,
+        "importPath": "Backend.main",
+        "description": "Backend.main",
+        "peekOfCode": "class Instituicao(BaseModel):\n    cod: str\n    nome: str\n    id_pais: str\nclass Pais(BaseModel):\n    sigla: str\n    nome: str\nclass Afinidade(BaseModel):\n    afinidade: bool\n    id_curso: str",
+        "detail": "Backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "Pais",
+        "kind": 6,
+        "importPath": "Backend.main",
+        "description": "Backend.main",
+        "peekOfCode": "class Pais(BaseModel):\n    sigla: str\n    nome: str\nclass Afinidade(BaseModel):\n    afinidade: bool\n    id_curso: str\n    id_form: str\nclass Classificacao(BaseModel):\n    nota: Decimal\n    escala: str",
+        "detail": "Backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "Afinidade",
+        "kind": 6,
+        "importPath": "Backend.main",
+        "description": "Backend.main",
+        "peekOfCode": "class Afinidade(BaseModel):\n    afinidade: bool\n    id_curso: str\n    id_form: str\nclass Classificacao(BaseModel):\n    nota: Decimal\n    escala: str\n    obsevacao: str\n    nota_convert: Decimal\nclass Login(BaseModel):",
+        "detail": "Backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "Classificacao",
+        "kind": 6,
+        "importPath": "Backend.main",
+        "description": "Backend.main",
+        "peekOfCode": "class Classificacao(BaseModel):\n    nota: Decimal\n    escala: str\n    obsevacao: str\n    nota_convert: Decimal\nclass Login(BaseModel):\n    email_or_username: str\n    password: str\nclass Token(BaseModel):\n    access_token: str",
         "detail": "Backend.main",
         "documentation": {}
     },
@@ -268,7 +911,7 @@
         "kind": 6,
         "importPath": "Backend.main",
         "description": "Backend.main",
-        "peekOfCode": "class Login(BaseModel):\n\tusername: str\n\tpassword: str\nclass Token(BaseModel):\n    access_token: str\n    token_type: str\nclass TokenData(BaseModel):\n    username: Optional[str] = None\n@app.get(\"/\")\ndef read_root(current_user:User = Depends(get_current_user)):",
+        "peekOfCode": "class Login(BaseModel):\n    email_or_username: str\n    password: str\nclass Token(BaseModel):\n    access_token: str\n    token_type: str\nclass TokenData(BaseModel):\n    email: Optional[str] = None\n# Função para enviar e-mail de verificação\n@app.post('/send_verification_email')",
         "detail": "Backend.main",
         "documentation": {}
     },
@@ -277,7 +920,7 @@
         "kind": 6,
         "importPath": "Backend.main",
         "description": "Backend.main",
-        "peekOfCode": "class Token(BaseModel):\n    access_token: str\n    token_type: str\nclass TokenData(BaseModel):\n    username: Optional[str] = None\n@app.get(\"/\")\ndef read_root(current_user:User = Depends(get_current_user)):\n\treturn {\"data\":\"Hello OWrldgggg\"}\n@app.post('/register')\ndef create_user(request:User):",
+        "peekOfCode": "class Token(BaseModel):\n    access_token: str\n    token_type: str\nclass TokenData(BaseModel):\n    email: Optional[str] = None\n# Função para enviar e-mail de verificação\n@app.post('/send_verification_email')\ndef send_verification_email(email: str):\n    user = db[\"users\"].find_one({\"email\": email})\n    if not user:",
         "detail": "Backend.main",
         "documentation": {}
     },
@@ -286,7 +929,34 @@
         "kind": 6,
         "importPath": "Backend.main",
         "description": "Backend.main",
-        "peekOfCode": "class TokenData(BaseModel):\n    username: Optional[str] = None\n@app.get(\"/\")\ndef read_root(current_user:User = Depends(get_current_user)):\n\treturn {\"data\":\"Hello OWrldgggg\"}\n@app.post('/register')\ndef create_user(request:User):\n\thashed_pass = Hash.bcrypt(request.password)\n\tuser_object = dict(request)\n\tuser_object[\"password\"] = hashed_pass",
+        "peekOfCode": "class TokenData(BaseModel):\n    email: Optional[str] = None\n# Função para enviar e-mail de verificação\n@app.post('/send_verification_email')\ndef send_verification_email(email: str):\n    user = db[\"users\"].find_one({\"email\": email})\n    if not user:\n        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=f'No user found with this {email} email')\n    subject = \"Verificação de E-mail\"\n    message = f\"Por favor, clique no link para verificar o seu e-mail: http://localhost:3000/verify_email/{user['email']}\"",
+        "detail": "Backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "send_email",
+        "kind": 2,
+        "importPath": "Backend.main",
+        "description": "Backend.main",
+        "peekOfCode": "def send_email(to_email, subject, body):\n    smtp_server = \"sandbox.smtp.mailtrap.io\"\n    smtp_port = 587\n    smtp_login = \"92463ddfaf41ea\"\n    smtp_password = \"7a3617bc2177ef\"\n    from_email = \"yurigue2104@gmail.com\"\n    msg = MIMEMultipart()\n    msg['From'] = from_email\n    msg['To'] = to_email\n    msg['Subject'] = subject",
+        "detail": "Backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "send_verification_email",
+        "kind": 2,
+        "importPath": "Backend.main",
+        "description": "Backend.main",
+        "peekOfCode": "def send_verification_email(email: str):\n    user = db[\"users\"].find_one({\"email\": email})\n    if not user:\n        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=f'No user found with this {email} email')\n    subject = \"Verificação de E-mail\"\n    message = f\"Por favor, clique no link para verificar o seu e-mail: http://localhost:3000/verify_email/{user['email']}\"\n    try:\n        print(\"Enviando email e-mail de verificação...\")\n    except Exception as e:\n        print(f\"Erro ao enviar o e-mail:{e}\")",
+        "detail": "Backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "verify_email",
+        "kind": 2,
+        "importPath": "Backend.main",
+        "description": "Backend.main",
+        "peekOfCode": "def verify_email(email: str):\n    user = db[\"users\"].find_one({\"email\": email})\n    if not user:\n        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=f'No user found with this {email} email')\n    if user.get(\"is_email_verified\"):\n        return {\"message\": \"E-mail já verificado\"}\n    db[\"users\"].update_one({\"email\": email}, {\"$set\": {\"is_email_verified\": True}})\n    return {\"message\": \"E-mail verificado com sucesso\"}\n# Rota raiz\n@app.get(\"/\")",
         "detail": "Backend.main",
         "documentation": {}
     },
@@ -295,7 +965,7 @@
         "kind": 2,
         "importPath": "Backend.main",
         "description": "Backend.main",
-        "peekOfCode": "def read_root(current_user:User = Depends(get_current_user)):\n\treturn {\"data\":\"Hello OWrldgggg\"}\n@app.post('/register')\ndef create_user(request:User):\n\thashed_pass = Hash.bcrypt(request.password)\n\tuser_object = dict(request)\n\tuser_object[\"password\"] = hashed_pass\n\tuser_id = db[\"users\"].insert_one(user_object)\n\treturn {\"res\":\"created\"}\n@app.post('/login')",
+        "peekOfCode": "def read_root():\n    return {\"data\": \"Hello World\"}\n# Função para registrar usuário\n@app.post('/register')\ndef create_user(request: User):\n    try:\n        print(\"Criando novo utilizador...\")\n        hashed_pass = Hash.bcrypt(request.password)\n        user_object = dict(request)\n        user_object[\"password\"] = hashed_pass",
         "detail": "Backend.main",
         "documentation": {}
     },
@@ -304,7 +974,7 @@
         "kind": 2,
         "importPath": "Backend.main",
         "description": "Backend.main",
-        "peekOfCode": "def create_user(request:User):\n\thashed_pass = Hash.bcrypt(request.password)\n\tuser_object = dict(request)\n\tuser_object[\"password\"] = hashed_pass\n\tuser_id = db[\"users\"].insert_one(user_object)\n\treturn {\"res\":\"created\"}\n@app.post('/login')\ndef login(request:Login):\n\tuser = db[\"users\"].find_one({\"username\":request.username})\n\tif not user:",
+        "peekOfCode": "def create_user(request: User):\n    try:\n        print(\"Criando novo utilizador...\")\n        hashed_pass = Hash.bcrypt(request.password)\n        user_object = dict(request)\n        user_object[\"password\"] = hashed_pass\n        user_object[\"is_email_verified\"] = False\n        user_id = db[\"users\"].insert_one(user_object)\n        send_verification_email(request.email)\n        print(\"Utilizador registado com sucesso. Por favor, verifique o seu e-mail.\")",
         "detail": "Backend.main",
         "documentation": {}
     },
@@ -313,7 +983,7 @@
         "kind": 2,
         "importPath": "Backend.main",
         "description": "Backend.main",
-        "peekOfCode": "def login(request:Login):\n\tuser = db[\"users\"].find_one({\"username\":request.username})\n\tif not user:\n\t\traise HTTPException(status_code=status.HTTP_404_NOT_FOUND,detail = f'No user found with this {request.username} username')\n\tif not Hash.verify(user[\"password\"],request.password):\n\t\traise HTTPException(status_code=status.HTTP_404_NOT_FOUND,detail = f'Wrong Username or password')\n\taccess_token = create_access_token(data={\"sub\": user[\"username\"] })\n\treturn {\"access_token\": access_token, \"token_type\": \"bearer\"}",
+        "peekOfCode": "def login(request: Login):\n    user = db[\"users\"].find_one({\"email\": request.email_or_username})\n    if not user:\n        user = db[\"users\"].find_one({\"username\": request.email_or_username})\n    if not user:\n        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail=\"Invalid username or password\")\n    if not Hash.verify(user[\"password\"], request.password):\n        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail=\"Invalid username or password\")\n    access_token = create_access_token(data={\"sub\": user[\"email\"]})\n    return {\"access_token\": access_token, \"token_type\": \"bearer\", \"username\": user[\"username\"]}",
         "detail": "Backend.main",
         "documentation": {}
     },
@@ -322,7 +992,7 @@
         "kind": 5,
         "importPath": "Backend.main",
         "description": "Backend.main",
-        "peekOfCode": "app = FastAPI()\norigins = [\n    \"http://localhost:3000\",\n    \"http://localhost:8080\",\n]\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=origins,\n    allow_credentials=True,\n    allow_methods=[\"*\"],",
+        "peekOfCode": "app = FastAPI()\n# Configuração do CORS\norigins = [\n    \"http://localhost:3000\",\n    \"http://localhost:8080\",\n]\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=origins,\n    allow_credentials=True,",
         "detail": "Backend.main",
         "documentation": {}
     },
@@ -340,7 +1010,7 @@
         "kind": 5,
         "importPath": "Backend.main",
         "description": "Backend.main",
-        "peekOfCode": "mongodb_uri = 'mongodb+srv://yuri:Bibi_1234@cluster0.0ejlijv.mongodb.net/?retryWrites=true&w=majority'\nport = 8000\nclient = MongoClient(mongodb_uri, port)\ndb = client[\"User\"]\nclass User(BaseModel):\n    username: str\n    company: str\n    password: str\nclass Login(BaseModel):\n\tusername: str",
+        "peekOfCode": "mongodb_uri = 'mongodb+srv://yuri:Bibi_1234@cluster0.0ejlijv.mongodb.net/?retryWrites=true&w=majority'\nport = 8000\nclient = MongoClient(mongodb_uri, port)\ndb = client[\"User\"]\n# Modelos Pydantic\nclass User(BaseModel):\n    username: str\n    name: str\n    email: str\n    password: str",
         "detail": "Backend.main",
         "documentation": {}
     },
@@ -349,7 +1019,7 @@
         "kind": 5,
         "importPath": "Backend.main",
         "description": "Backend.main",
-        "peekOfCode": "port = 8000\nclient = MongoClient(mongodb_uri, port)\ndb = client[\"User\"]\nclass User(BaseModel):\n    username: str\n    company: str\n    password: str\nclass Login(BaseModel):\n\tusername: str\n\tpassword: str",
+        "peekOfCode": "port = 8000\nclient = MongoClient(mongodb_uri, port)\ndb = client[\"User\"]\n# Modelos Pydantic\nclass User(BaseModel):\n    username: str\n    name: str\n    email: str\n    password: str\n    is_active: bool = False",
         "detail": "Backend.main",
         "documentation": {}
     },
@@ -358,7 +1028,7 @@
         "kind": 5,
         "importPath": "Backend.main",
         "description": "Backend.main",
-        "peekOfCode": "client = MongoClient(mongodb_uri, port)\ndb = client[\"User\"]\nclass User(BaseModel):\n    username: str\n    company: str\n    password: str\nclass Login(BaseModel):\n\tusername: str\n\tpassword: str\nclass Token(BaseModel):",
+        "peekOfCode": "client = MongoClient(mongodb_uri, port)\ndb = client[\"User\"]\n# Modelos Pydantic\nclass User(BaseModel):\n    username: str\n    name: str\n    email: str\n    password: str\n    is_active: bool = False\n    is_email_verified: bool = False",
         "detail": "Backend.main",
         "documentation": {}
     },
@@ -367,61 +1037,7 @@
         "kind": 5,
         "importPath": "Backend.main",
         "description": "Backend.main",
-        "peekOfCode": "db = client[\"User\"]\nclass User(BaseModel):\n    username: str\n    company: str\n    password: str\nclass Login(BaseModel):\n\tusername: str\n\tpassword: str\nclass Token(BaseModel):\n    access_token: str",
-        "detail": "Backend.main",
-        "documentation": {}
-    },
-    {
-        "label": "\thashed_pass",
-        "kind": 5,
-        "importPath": "Backend.main",
-        "description": "Backend.main",
-        "peekOfCode": "\thashed_pass = Hash.bcrypt(request.password)\n\tuser_object = dict(request)\n\tuser_object[\"password\"] = hashed_pass\n\tuser_id = db[\"users\"].insert_one(user_object)\n\treturn {\"res\":\"created\"}\n@app.post('/login')\ndef login(request:Login):\n\tuser = db[\"users\"].find_one({\"username\":request.username})\n\tif not user:\n\t\traise HTTPException(status_code=status.HTTP_404_NOT_FOUND,detail = f'No user found with this {request.username} username')",
-        "detail": "Backend.main",
-        "documentation": {}
-    },
-    {
-        "label": "\tuser_object",
-        "kind": 5,
-        "importPath": "Backend.main",
-        "description": "Backend.main",
-        "peekOfCode": "\tuser_object = dict(request)\n\tuser_object[\"password\"] = hashed_pass\n\tuser_id = db[\"users\"].insert_one(user_object)\n\treturn {\"res\":\"created\"}\n@app.post('/login')\ndef login(request:Login):\n\tuser = db[\"users\"].find_one({\"username\":request.username})\n\tif not user:\n\t\traise HTTPException(status_code=status.HTTP_404_NOT_FOUND,detail = f'No user found with this {request.username} username')\n\tif not Hash.verify(user[\"password\"],request.password):",
-        "detail": "Backend.main",
-        "documentation": {}
-    },
-    {
-        "label": "\tuser_object[\"password\"]",
-        "kind": 5,
-        "importPath": "Backend.main",
-        "description": "Backend.main",
-        "peekOfCode": "\tuser_object[\"password\"] = hashed_pass\n\tuser_id = db[\"users\"].insert_one(user_object)\n\treturn {\"res\":\"created\"}\n@app.post('/login')\ndef login(request:Login):\n\tuser = db[\"users\"].find_one({\"username\":request.username})\n\tif not user:\n\t\traise HTTPException(status_code=status.HTTP_404_NOT_FOUND,detail = f'No user found with this {request.username} username')\n\tif not Hash.verify(user[\"password\"],request.password):\n\t\traise HTTPException(status_code=status.HTTP_404_NOT_FOUND,detail = f'Wrong Username or password')",
-        "detail": "Backend.main",
-        "documentation": {}
-    },
-    {
-        "label": "\tuser_id",
-        "kind": 5,
-        "importPath": "Backend.main",
-        "description": "Backend.main",
-        "peekOfCode": "\tuser_id = db[\"users\"].insert_one(user_object)\n\treturn {\"res\":\"created\"}\n@app.post('/login')\ndef login(request:Login):\n\tuser = db[\"users\"].find_one({\"username\":request.username})\n\tif not user:\n\t\traise HTTPException(status_code=status.HTTP_404_NOT_FOUND,detail = f'No user found with this {request.username} username')\n\tif not Hash.verify(user[\"password\"],request.password):\n\t\traise HTTPException(status_code=status.HTTP_404_NOT_FOUND,detail = f'Wrong Username or password')\n\taccess_token = create_access_token(data={\"sub\": user[\"username\"] })",
-        "detail": "Backend.main",
-        "documentation": {}
-    },
-    {
-        "label": "\tuser",
-        "kind": 5,
-        "importPath": "Backend.main",
-        "description": "Backend.main",
-        "peekOfCode": "\tuser = db[\"users\"].find_one({\"username\":request.username})\n\tif not user:\n\t\traise HTTPException(status_code=status.HTTP_404_NOT_FOUND,detail = f'No user found with this {request.username} username')\n\tif not Hash.verify(user[\"password\"],request.password):\n\t\traise HTTPException(status_code=status.HTTP_404_NOT_FOUND,detail = f'Wrong Username or password')\n\taccess_token = create_access_token(data={\"sub\": user[\"username\"] })\n\treturn {\"access_token\": access_token, \"token_type\": \"bearer\"}",
-        "detail": "Backend.main",
-        "documentation": {}
-    },
-    {
-        "label": "\taccess_token",
-        "kind": 5,
-        "importPath": "Backend.main",
-        "description": "Backend.main",
-        "peekOfCode": "\taccess_token = create_access_token(data={\"sub\": user[\"username\"] })\n\treturn {\"access_token\": access_token, \"token_type\": \"bearer\"}",
+        "peekOfCode": "db = client[\"User\"]\n# Modelos Pydantic\nclass User(BaseModel):\n    username: str\n    name: str\n    email: str\n    password: str\n    is_active: bool = False\n    is_email_verified: bool = False\nclass Candidatura(BaseModel):",
         "detail": "Backend.main",
         "documentation": {}
     },

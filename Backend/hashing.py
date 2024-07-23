@@ -1,4 +1,8 @@
 from passlib.context import CryptContext
+
+
+# from jose import JWTError 
+# import jwt
 pwd_cxt = CryptContext(schemes =["bcrypt"],deprecated="auto")
 class Hash():
    def bcrypt(password:str):

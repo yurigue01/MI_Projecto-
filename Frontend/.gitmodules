@@ -1,0 +1,3 @@
+[submodule "fronten"]
+	path = fronten
+	url = https://github.com/yurigue/Projecto_MI.git
